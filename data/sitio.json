@@ -1,0 +1,1330 @@
+{
+  "colores": {
+    "primario": "#3b0d18",
+    "secundario": "#7a1f35",
+    "acento": "#e0b45c"
+  },
+  "directivos": [
+    {
+      "cargo": "Directora",
+      "nombre": "Patricia San Martín Alfaro",
+      "descripcion": "Liderazgo del proyecto educativo institucional.",
+      "iniciales": "PS",
+      "foto": "",
+      "correo": "psanmartin@colegiosm.cl",
+      "telefono": "(57) 242 7128"
+    },
+    {
+      "cargo": "Directora (s)",
+      "nombre": "Rosa Castillo Gallardo",
+      "descripcion": "Liderazgo del proyecto educativo institucional.",
+      "iniciales": "RC",
+      "foto": "",
+      "correo": "rcastillo@colegiosm.cl",
+      "telefono": "(57) 226 6257"
+    },
+    {
+      "cargo": "Asistente Administrativa de Dirección",
+      "nombre": "Ximena San Martín Alfaro",
+      "descripcion": "Apoyo a la gestión de Dirección.",
+      "iniciales": "XS",
+      "foto": "",
+      "correo": "xsanmartin@colegiosm.cl",
+      "telefono": "(57) 226 9375"
+    },
+    {
+      "cargo": "Jefa UTP Primer Ciclo",
+      "nombre": "Mª Cristina Claude Viveros",
+      "descripcion": "Unidad Técnica Pedagógica del primer ciclo.",
+      "iniciales": "CC",
+      "foto": "",
+      "correo": "cclaude@colegiosm.cl",
+      "telefono": "(57) 226 6150"
+    },
+    {
+      "cargo": "Jefe UTP Segundo Ciclo y Media",
+      "nombre": "Fabian Hernández Hams",
+      "descripcion": "Unidad Técnica Pedagógica del segundo ciclo y media",
+      "iniciales": "FH",
+      "foto": "",
+      "correo": "fahernandez@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "cargo": "Encargado de Convivencia Escolar",
+      "nombre": "Pablo Jiménez Subieta",
+      "descripcion": "Promoción del buen trato y la sana convivencia.",
+      "iniciales": "PJ",
+      "foto": "",
+      "correo": "pjimenez@colegiosm.cl",
+      "telefono": "(57) 226 7754"
+    },
+    {
+      "cargo": "Inspectora General",
+      "nombre": "Teresa Monroy Cáceres",
+      "descripcion": "Orden, seguridad y disciplina escolar.",
+      "iniciales": "TM",
+      "foto": "",
+      "correo": "tmonroy@colegiosm.cl",
+      "telefono": "(57) 241 5343"
+    },
+    {
+      "cargo": "Coordinadora de Apoyo Pedagógico",
+      "nombre": "Constanza Riquelme San Martín",
+      "descripcion": "Educadora diferencial. Acompañamiento a la diversidad de aprendizajes.",
+      "iniciales": "CR",
+      "foto": "",
+      "correo": "cjriquelme@colegiosm.cl",
+      "telefono": "(57) 252 3762"
+    }
+  ],
+  "departamentos": [
+    {
+      "id": "primer-ciclo",
+      "tipo": "academico",
+      "nombre": "Departamento de Primer Ciclo",
+      "descripcion": "Profesoras jefe de 1° a 4° básico: acompañan a sus cursos en todas las asignaturas durante los primeros años de aprendizaje.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "lenguaje",
+      "tipo": "academico",
+      "nombre": "Departamento de Lenguaje",
+      "descripcion": "Lectura, escritura y comunicación oral: formamos lectores críticos y estudiantes que se expresan con claridad.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "matematica",
+      "tipo": "academico",
+      "nombre": "Departamento de Matemática",
+      "descripcion": "Razonamiento, resolución de problemas y pensamiento lógico desde 1° básico hasta 4° medio.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "historia",
+      "tipo": "academico",
+      "nombre": "Departamento de Historia y Ciencias Sociales",
+      "descripcion": "Historia, geografía y formación ciudadana para comprender el mundo y participar en él.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "ciencias",
+      "tipo": "academico",
+      "nombre": "Departamento de Ciencias",
+      "descripcion": "Ciencias naturales, biología, química, física y tecnología, con foco en la indagación y el trabajo práctico.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "ingles",
+      "tipo": "academico",
+      "nombre": "Departamento de Inglés",
+      "descripcion": "Inglés como lengua extranjera, con énfasis en la comunicación y la comprensión.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "artes",
+      "tipo": "academico",
+      "nombre": "Departamento de Artes y Música",
+      "descripcion": "Artes visuales y música para desarrollar la creatividad y la expresión.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "educacion-fisica",
+      "tipo": "academico",
+      "nombre": "Departamento de Educación Física",
+      "descripcion": "Actividad física, deporte y vida saludable.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "religion-filosofia",
+      "tipo": "academico",
+      "nombre": "Departamento de Religión y Filosofía",
+      "descripcion": "Formación valórica, reflexión y pensamiento filosófico.",
+      "encargado": "",
+      "correo": "",
+      "imagen": "",
+      "formato": "foto"
+    },
+    {
+      "id": "contabilidad-y-finanzas",
+      "tipo": "apoyo",
+      "nombre": "Contabilidad y Finanzas",
+      "descripcion": "Gestión administrativa y financiera del establecimiento.",
+      "encargado": "Rodolfo Barrera San Martín",
+      "correo": "finanzas@colegiosm.cl"
+    },
+    {
+      "id": "psicosocial",
+      "tipo": "apoyo",
+      "nombre": "Departamento Psicosocial",
+      "descripcion": "Acompañamiento socioemocional a estudiantes y orientación a las familias.",
+      "encargado": "Carol Molina Soto",
+      "correo": "cmolina@colegiosm.cl"
+    },
+    {
+      "id": "apoyo-pedagogico",
+      "tipo": "apoyo",
+      "nombre": "Departamento de Apoyo Pedagógico",
+      "descripcion": "Apoya a estudiantes con necesidades educativas, en coordinación con docentes y familias.",
+      "encargado": "Constanza Riquelme San Martín",
+      "correo": "cjriquelme@colegiosm.cl"
+    }
+  ],
+  "personal": [
+    {
+      "nombre": "Sonia Contreras Paz",
+      "cargo": "Supervisora Docente",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "scontreras@colegiosm.cl",
+      "telefono": "(57) 252 3762"
+    },
+    {
+      "nombre": "María José Flores Ulloa",
+      "cargo": "Profesora jefe 1° básico A",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "mjflores@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Natacha Arenas",
+      "cargo": "Profesora jefe 1° básico B",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "narenas@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Viviana Correa Jiménez",
+      "cargo": "Profesora jefe 2° básico A",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "vcorrea@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Rosa Guisa Guisa",
+      "cargo": "Profesora jefe 2° básico B",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "rguisa@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Carmen Huidobro González",
+      "cargo": "Profesora jefe 3° básico A",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "chuidobro@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Jazmín Alejos Ampuero",
+      "cargo": "Profesora jefe 3° básico B",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "jalejo@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Yessica Villalobos Santander",
+      "cargo": "Profesora jefe 4° básico A",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "yvillalobos@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Katherine Valderrama Jiménez",
+      "cargo": "Profesora jefe 4° básico B",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "kvalderrama@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "primer-ciclo"
+      ]
+    },
+    {
+      "nombre": "Alejandro Ayavire",
+      "cargo": "Educación Física",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "aayavire@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "educacion-fisica"
+      ]
+    },
+    {
+      "nombre": "Rosa Toro",
+      "cargo": "Inglés, 1° y 2° básico",
+      "area": "Docentes Primer Ciclo",
+      "tipo": "docente",
+      "correo": "rtoro@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "ingles"
+      ]
+    },
+    {
+      "nombre": "Stefany Seura",
+      "cargo": "Matemática",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "sseura@colegiosm.cl",
+      "telefono": "",
+      "foto": "img/personal/mv13xioz-democratizacion-chile.png",
+      "departamentos": [
+        "matematica"
+      ]
+    },
+    {
+      "nombre": "Daniela Cayo Ugalde",
+      "cargo": "Inglés (3° y 4° básico y segundo ciclo)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "dcayo@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "ingles"
+      ]
+    },
+    {
+      "nombre": "Verónica García Ocaranza",
+      "cargo": "Lenguaje",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "vgarcia@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "lenguaje"
+      ]
+    },
+    {
+      "nombre": "Elisa Alcón Castro",
+      "cargo": "Historia y Geografía",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "ealcon@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "historia"
+      ]
+    },
+    {
+      "nombre": "Fabián Hernández Hams",
+      "cargo": "Lenguaje y Comunicación",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "fahernandez@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "lenguaje"
+      ]
+    },
+    {
+      "nombre": "Sofía Grau",
+      "cargo": "Ciencias Naturales",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "sgrau@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "ciencias"
+      ]
+    },
+    {
+      "nombre": "Álvaro Flores Chila",
+      "cargo": "Matemática y Física",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "aflores@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "matematica",
+        "ciencias"
+      ]
+    },
+    {
+      "nombre": "Rossana Ibáñez Zamorano",
+      "cargo": "Religión",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "ribanez@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "religion-filosofia"
+      ]
+    },
+    {
+      "nombre": "Maximiliano Salinas Hanshing",
+      "cargo": "Tecnología y Ciencias (básica y media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "msalinas@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "ciencias"
+      ]
+    },
+    {
+      "nombre": "Erica Cid Díaz",
+      "cargo": "Matemática y Física (básica y media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "ecid@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "matematica",
+        "ciencias"
+      ]
+    },
+    {
+      "nombre": "Eileen Rivera Rojas",
+      "cargo": "Inglés (básica y media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "erivera@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "ingles"
+      ]
+    },
+    {
+      "nombre": "Francesco Vivero Dodero",
+      "cargo": "Historia y Ciencias Sociales (media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "fvivero@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "historia"
+      ]
+    },
+    {
+      "nombre": "Jacqueline Tapia",
+      "cargo": "Lenguaje y Comunicación (media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "jtapia@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "lenguaje"
+      ]
+    },
+    {
+      "nombre": "Belman Michael Godoy",
+      "cargo": "Química y Biología (media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "bmichael@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "ciencias"
+      ]
+    },
+    {
+      "nombre": "Deydree Alegre González",
+      "cargo": "Filosofía (media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "dalegre@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "religion-filosofia"
+      ]
+    },
+    {
+      "nombre": "Ivar Cáceres Benavides",
+      "cargo": "Educación Física (básica y media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "icaceres@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "educacion-fisica"
+      ]
+    },
+    {
+      "nombre": "Orlando Astorga Torres",
+      "cargo": "Música (básica y media)",
+      "area": "Docentes Segundo Ciclo",
+      "tipo": "docente",
+      "correo": "oastorga@colegiosm.cl",
+      "telefono": "",
+      "departamentos": [
+        "artes"
+      ]
+    },
+    {
+      "nombre": "Constanza Riquelme San Martín",
+      "cargo": "Educadora diferencial, coordinadora",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "cjriquelme@colegiosm.cl",
+      "telefono": "(57) 252 3762"
+    },
+    {
+      "nombre": "Alexandra Yori Alarcón",
+      "cargo": "Fonoaudióloga, primer ciclo",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "ayori@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Katherine Valderrama Jiménez",
+      "cargo": "Psicopedagoga, primer ciclo",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "kvalderrama@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Carla Rojas Astorga",
+      "cargo": "Psicopedagoga, primer ciclo",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "crojas@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Dominga Ros Frei",
+      "cargo": "Psicopedagoga, primer ciclo",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "dfrei@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Francesca Barbagelata Olcay",
+      "cargo": "Psicopedagoga, segundo ciclo",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "fbarbagelata@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Bárbara Varas del Canto",
+      "cargo": "Psicopedagoga, segundo ciclo",
+      "area": "Departamento de Apoyo Pedagógico",
+      "tipo": "equipo",
+      "correo": "bvaras@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Carol Molina Soto",
+      "cargo": "Trabajadora social, coordinadora equipo psicosocial y redes",
+      "area": "Departamento Psicosocial",
+      "tipo": "equipo",
+      "correo": "cmolina@colegiosm.cl",
+      "telefono": "(57) 242 7128"
+    },
+    {
+      "nombre": "Samuel García Vásquez",
+      "cargo": "Psicólogo educacional, primer ciclo",
+      "area": "Departamento Psicosocial",
+      "tipo": "equipo",
+      "correo": "sgarcia@colegiosm.cl",
+      "telefono": "(57) 226 9376"
+    },
+    {
+      "nombre": "Javiera Rojas Arancibia",
+      "cargo": "Psicóloga educacional, primer ciclo",
+      "area": "Departamento Psicosocial",
+      "tipo": "equipo",
+      "correo": "jrojas@colegiosm.cl",
+      "telefono": "(57) 226 7754"
+    },
+    {
+      "nombre": "Marta Santander Ulloa",
+      "cargo": "Docente, encargada de asuntos estudiantiles",
+      "area": "Departamento Psicosocial",
+      "tipo": "equipo",
+      "correo": "msantander@colegiosm.cl",
+      "telefono": "(57) 226 9376"
+    },
+    {
+      "nombre": "Carla Riquelme San Martín",
+      "cargo": "Inspectora encargada SAE y PAE",
+      "area": "Inspectoría",
+      "tipo": "equipo",
+      "correo": "cariquelme@colegiosm.cl",
+      "telefono": "(57) 247 1256"
+    },
+    {
+      "nombre": "María Isabel Marroquín",
+      "cargo": "Inspectora primer ciclo",
+      "area": "Inspectoría",
+      "tipo": "equipo",
+      "correo": "mmarroquin@colegiosm.cl",
+      "telefono": "(57) 242 7128"
+    },
+    {
+      "nombre": "Mónica Núñez Romero",
+      "cargo": "Inspectora segundo ciclo",
+      "area": "Inspectoría",
+      "tipo": "equipo",
+      "correo": "mnunez@colegiosm.cl",
+      "telefono": "(57) 247 1256"
+    },
+    {
+      "nombre": "Anali López Leguatt",
+      "cargo": "Asistente de aula 1° básico A",
+      "area": "Asistentes de aula",
+      "tipo": "equipo",
+      "correo": "alopez@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Valentina Jiménez Abarca",
+      "cargo": "Asistente de aula 1° básico B",
+      "area": "Asistentes de aula",
+      "tipo": "equipo",
+      "correo": "vjimenez@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Carmen Cáceres Cruz",
+      "cargo": "Asistente de aula 1° básico A y B",
+      "area": "Asistentes de aula",
+      "tipo": "equipo",
+      "correo": "ccaceres@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Edith Torres",
+      "cargo": "Asistente de aula 2° básico A y B",
+      "area": "Asistentes de aula",
+      "tipo": "equipo",
+      "correo": "",
+      "telefono": ""
+    },
+    {
+      "nombre": "Paola Zárate Zárate",
+      "cargo": "Asistente de aula segundo ciclo",
+      "area": "Asistentes de aula",
+      "tipo": "equipo",
+      "correo": "pzarate@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Viviana Correa Jiménez",
+      "cargo": "Encargada de CRA",
+      "area": "Biblioteca CRA",
+      "tipo": "equipo",
+      "correo": "biblioteca@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Leonardo Flores Rivera",
+      "cargo": "Encargado informático y RR.HH.",
+      "area": "Administración",
+      "tipo": "equipo",
+      "correo": "lflores@colegiosm.cl",
+      "telefono": "(57) 252 3762"
+    },
+    {
+      "nombre": "Rodolfo Barrera San Martín",
+      "cargo": "Encargado de Administración y Finanzas",
+      "area": "Contabilidad y Finanzas",
+      "tipo": "equipo",
+      "correo": "",
+      "telefono": "(57) 247 1256"
+    },
+    {
+      "nombre": "Rodolfo Barrera Rojas",
+      "cargo": "Contador",
+      "area": "Contabilidad y Finanzas",
+      "tipo": "equipo",
+      "correo": "finanzas@colegiosm.cl",
+      "telefono": "(57) 247 1256"
+    },
+    {
+      "nombre": "Carlos Devia Ballon",
+      "cargo": "Portería y recepción",
+      "area": "Auxiliares, aseo y mantención",
+      "tipo": "equipo",
+      "correo": "cdevia@colegiosm.cl",
+      "telefono": ""
+    },
+    {
+      "nombre": "Carlos Carrillo Ríos",
+      "cargo": "Encargado de mantención",
+      "area": "Auxiliares, aseo y mantención",
+      "tipo": "equipo",
+      "correo": "",
+      "telefono": ""
+    },
+    {
+      "nombre": "Zoila Cárdenas Chávez",
+      "cargo": "Auxiliar de aseo",
+      "area": "Auxiliares, aseo y mantención",
+      "tipo": "equipo",
+      "correo": "",
+      "telefono": ""
+    },
+    {
+      "nombre": "Víctor Pulgar Valle",
+      "cargo": "Auxiliar de aseo",
+      "area": "Auxiliares, aseo y mantención",
+      "tipo": "equipo",
+      "correo": "",
+      "telefono": ""
+    },
+    {
+      "nombre": "Carla Pérez",
+      "cargo": "Presidenta",
+      "area": "Centro de Padres y Apoderados",
+      "tipo": "comunidad",
+      "correo": "",
+      "telefono": ""
+    },
+    {
+      "nombre": "Mariana Peña",
+      "cargo": "Secretaria",
+      "area": "Centro de Padres y Apoderados",
+      "tipo": "comunidad",
+      "correo": "",
+      "telefono": ""
+    },
+    {
+      "nombre": "Tamara Vergara",
+      "cargo": "Tesorera",
+      "area": "Centro de Padres y Apoderados",
+      "tipo": "comunidad",
+      "correo": "",
+      "telefono": ""
+    }
+  ],
+  "noticias": [
+    {
+      "id": "2026-10-09-hoy-es-viernes",
+      "fecha": "2026-10-09",
+      "tipo": "comunicado",
+      "titulo": "¡Hoy es viernes!",
+      "resumen": "Informamos que hoy es viernes",
+      "url": "",
+      "imagen": "img/noticias/mv144ox6-reforzamiento-portada-v2.png",
+      "cuerpo": "Hola gente **hoy es viernes** \n\n## Subtítulo\n\npor qué queremos eso? \n\n> Me acuerdo de los buenos tiempos\n\n![](img/noticias/mv14oib4-1000173305.jpg)\n\n"
+    },
+    {
+      "id": "2026-09-20-bienvenidos-de-vuelta-retomamos-nuestras-clases-este-lunes",
+      "fecha": "2026-09-20",
+      "tipo": "comunicado",
+      "titulo": "¡Bienvenidos de vuelta! Retomamos nuestras clases este lunes 21 de septiembre",
+      "resumen": "Información para el regreso a clases de toda la comunidad educativa.",
+      "url": "https://colegiosanmartin.webescuela.cl/Comunicado_20sept2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-09-07-circular-informativa-plan-de-recuperacion-de-clases-organiz",
+      "fecha": "2026-09-07",
+      "tipo": "comunicado",
+      "titulo": "Circular informativa: Plan de recuperación de clases, organización de septiembre y Muestra Folclórica 2026",
+      "resumen": "Detalles del plan de recuperación y las actividades del mes de la patria.",
+      "url": "https://colegiosanmartin.webescuela.cl/Comunicado_07Septiembre2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-09-03-acompanamiento-pedagogico-aptus-fortaleciendo-el-aprendizaj",
+      "fecha": "2026-09-03",
+      "tipo": "pedagogia",
+      "titulo": "Acompañamiento pedagógico Aptus: fortaleciendo el aprendizaje docente",
+      "resumen": "Creemos que la mejora educativa se construye también a través del aprendizaje permanente de quienes educan.",
+      "url": "https://colegiosanmartin.webescuela.cl/curso_aptus2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-08-26-atencion-comunidad-san-martin",
+      "fecha": "2026-08-26",
+      "tipo": "comunidad",
+      "titulo": "Atención Comunidad San Martín",
+      "resumen": "Información relevante para estudiantes, apoderados y funcionarios.",
+      "url": "https://colegiosanmartin.webescuela.cl/new_smm",
+      "imagen": ""
+    },
+    {
+      "id": "2026-08-25-comunicado-oficial-sobre-suspension-de-clases-y-medidas-ins",
+      "fecha": "2026-08-25",
+      "tipo": "comunicado",
+      "titulo": "Comunicado oficial sobre suspensión de clases y medidas institucionales",
+      "resumen": "Descarga el comunicado oficial con las medidas adoptadas por el establecimiento.",
+      "url": "https://colegiosanmartin.webescuela.cl/Comunicacion_25Agosto2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-08-21-informacion-de-ultimo-minuto-comunicado-en-pdf",
+      "fecha": "2026-08-21",
+      "tipo": "comunicado",
+      "titulo": "Información de último minuto: comunicado en PDF",
+      "resumen": "Descarga aquí el comunicado con la información más reciente.",
+      "url": "https://colegiosanmartin.webescuela.cl/Comunicacion_21Agosto2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-08-19-trabajos-de-habilitacion-y-suspension-preventiva-para-el-ju",
+      "fecha": "2026-08-19",
+      "tipo": "comunicado",
+      "titulo": "Trabajos de habilitación y suspensión preventiva para el jueves 20 y viernes 21 de agosto",
+      "resumen": "Comunicado institucional a padres y apoderados.",
+      "url": "https://colegiosanmartin.webescuela.cl/Comunicacion_18Agosto2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-08-18-suspension-de-clases-se-extiende-para-el-miercoles-19-de-ag",
+      "fecha": "2026-08-18",
+      "tipo": "comunicado",
+      "titulo": "Suspensión de clases se extiende para el miércoles 19 de agosto",
+      "resumen": "Comunicado oficial a la comunidad educativa.",
+      "url": "https://colegiosanmartin.webescuela.cl/comunicado_19Agosto2026",
+      "imagen": ""
+    },
+    {
+      "id": "2026-08-16-suspension-preventiva-de-clases-para-el-lunes-17-de-agosto",
+      "fecha": "2026-08-16",
+      "tipo": "comunicado",
+      "titulo": "Suspensión preventiva de clases para el lunes 17 de agosto",
+      "resumen": "Comunicado dirigido a madres, padres y apoderados.",
+      "url": "https://colegiosanmartin.webescuela.cl/Comunicado_16Agosto2026",
+      "imagen": ""
+    }
+  ],
+  "redes": {
+    "titulo": "Síguenos en redes sociales",
+    "descripcion": "Entérate de las actividades, logros y avisos de nuestra comunidad en nuestras cuentas oficiales.",
+    "lista": [
+      {
+        "red": "facebook",
+        "nombre": "Colegio San Martín Iquique",
+        "url": "https://www.facebook.com/colegiosm.iqq"
+      },
+      {
+        "red": "instagram",
+        "nombre": "@colegiosm.iqq",
+        "url": "https://www.instagram.com/colegiosm.iqq"
+      },
+      {
+        "red": "facebook",
+        "nombre": "Centro de Padres",
+        "url": "https://www.facebook.com/profile.php?id=100009334550100"
+      },
+      {
+        "red": "instagram",
+        "nombre": "Centro de Alumnos",
+        "url": "http://instagram.com/ceal2026.csm"
+      }
+    ]
+  },
+  "documentos": [
+    {
+      "nombre": "Proyecto Educativo Institucional (PEI)",
+      "sigla": "PEI",
+      "url": "https://colegiosanmartin.webescuela.cl/documentos-CSM"
+    },
+    {
+      "nombre": "Reglamento Interno de Convivencia Escolar (RICE)",
+      "sigla": "RICE",
+      "url": "documentos/mv2ke6bp-rice-colegio-2026.pdf"
+    },
+    {
+      "nombre": "Reglamento de Evaluación",
+      "sigla": "REV",
+      "url": "https://colegiosanmartin.webescuela.cl/documentos-CSM"
+    },
+    {
+      "nombre": "Listas de útiles 2026",
+      "sigla": "PDF",
+      "url": "https://colegiosanmartin.webescuela.cl/Utiles_Escolares"
+    }
+  ],
+  "estilo": {
+    "global": {
+      "fondoPie": "#310712"
+    },
+    "paginas": {
+      "directivos": {
+        "btnForma": "pildora",
+        "btnTamano": "normal",
+        "btnMayus": "no",
+        "fondoPagina": "#ffffff",
+        "fondoPie": "#214473"
+      }
+    }
+  },
+  "horarios": {
+    "colores": {
+      "Lenguaje y Comunicación": "#cfe3ff",
+      "Matemática": "#ffd9c2",
+      "Ciencias Naturales": "#d4f0d9",
+      "Inglés": "#f6d4ec",
+      "Historia y Geografía": "#fff0b3",
+      "Educación Física": "#d9d4f7",
+      "Artes Visuales": "#c8eef0",
+      "Música": "#ffd3d3",
+      "Religión": "#e4ecc4",
+      "Orientación": "#f1dcc4",
+      "Tecnología": "#d0e6f5",
+      "Taller de lectura": "#ecd5f2",
+      "Lengua y Literatura": "#d9f2c4",
+      "Economía y Sociedad": "#fde2b8",
+      "Comprensión Histórica del Presente": "#cde0dc"
+    },
+    "cursos": [
+      {
+        "nombre": "1° básico A",
+        "filas": [
+          {
+            "hora": "08:00 - 08:45",
+            "celdas": [
+              "Lenguaje y Comunicación",
+              "Matemática",
+              "Lenguaje y Comunicación",
+              "Matemática",
+              "Lenguaje y Comunicación"
+            ]
+          },
+          {
+            "hora": "08:45 - 09:30",
+            "celdas": [
+              "Lenguaje y Comunicación",
+              "Matemática",
+              "Lenguaje y Comunicación",
+              "Matemática",
+              "Lenguaje y Comunicación"
+            ]
+          },
+          {
+            "hora": "09:30 - 09:45",
+            "celdas": [
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo"
+            ]
+          },
+          {
+            "hora": "09:45 - 10:30",
+            "celdas": [
+              "Matemática",
+              "Ciencias Naturales",
+              "Inglés",
+              "Historia y Geografía",
+              "Educación Física"
+            ]
+          },
+          {
+            "hora": "10:30 - 11:15",
+            "celdas": [
+              "Matemática",
+              "Ciencias Naturales",
+              "Inglés",
+              "Historia y Geografía",
+              "Educación Física"
+            ]
+          },
+          {
+            "hora": "11:15 - 11:30",
+            "celdas": [
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo"
+            ]
+          },
+          {
+            "hora": "11:30 - 12:15",
+            "celdas": [
+              "Artes Visuales",
+              "Música",
+              "Educación Física",
+              "Religión",
+              "Orientación"
+            ]
+          },
+          {
+            "hora": "12:15 - 13:00",
+            "celdas": [
+              "Artes Visuales",
+              "Música",
+              "Educación Física",
+              "Tecnología",
+              "Orientación"
+            ]
+          },
+          {
+            "hora": "13:00 - 13:45",
+            "celdas": [
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo"
+            ]
+          },
+          {
+            "hora": "13:45 - 14:30",
+            "celdas": [
+              "Historia y Geografía",
+              "Lenguaje y Comunicación",
+              "Ciencias Naturales",
+              "Lenguaje y Comunicación",
+              ""
+            ]
+          },
+          {
+            "hora": "14:30 - 15:15",
+            "celdas": [
+              "Taller de lectura",
+              "Lenguaje y Comunicación",
+              "Matemática",
+              "Taller de lectura",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "8° básico B",
+        "filas": [
+          {
+            "hora": "08:00 - 08:45",
+            "celdas": [
+              "Historia y Geografía",
+              "Lengua y Literatura · Sala 12",
+              "Ciencias Naturales",
+              "Matemática",
+              "Inglés"
+            ]
+          },
+          {
+            "hora": "08:45 - 09:30",
+            "celdas": [
+              "Historia y Geografía",
+              "Lengua y Literatura · Sala 12",
+              "Ciencias Naturales",
+              "Matemática",
+              "Inglés"
+            ]
+          },
+          {
+            "hora": "09:30 - 09:45",
+            "celdas": [
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo"
+            ]
+          },
+          {
+            "hora": "09:45 - 10:30",
+            "celdas": [
+              "Ciencias Naturales",
+              "Educación Física · Gimnasio",
+              "Lengua y Literatura",
+              "Tecnología · Sala de computación",
+              "Música"
+            ]
+          },
+          {
+            "hora": "10:30 - 11:15",
+            "celdas": [
+              "Ciencias Naturales",
+              "Educación Física · Gimnasio",
+              "Lengua y Literatura",
+              "Tecnología · Sala de computación",
+              "Música"
+            ]
+          },
+          {
+            "hora": "11:15 - 11:30",
+            "celdas": [
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo"
+            ]
+          },
+          {
+            "hora": "11:30 - 12:15",
+            "celdas": [
+              "Inglés",
+              "Matemática",
+              "Historia y Geografía",
+              "Artes Visuales",
+              "Orientación"
+            ]
+          },
+          {
+            "hora": "12:15 - 13:00",
+            "celdas": [
+              "Inglés",
+              "Matemática",
+              "Historia y Geografía",
+              "Artes Visuales",
+              "Religión"
+            ]
+          },
+          {
+            "hora": "13:00 - 13:45",
+            "celdas": [
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo"
+            ]
+          },
+          {
+            "hora": "13:45 - 14:30",
+            "celdas": [
+              "Lengua y Literatura",
+              "Ciencias Naturales",
+              "Educación Física · Gimnasio",
+              "Lengua y Literatura",
+              ""
+            ]
+          },
+          {
+            "hora": "14:30 - 15:15",
+            "celdas": [
+              "Lengua y Literatura",
+              "Ciencias Naturales",
+              "Educación Física · Gimnasio",
+              "Lengua y Literatura",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "4° medio",
+        "filas": [
+          {
+            "hora": "08:00 - 08:45",
+            "celdas": [
+              "Inglés",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "08:45 - 09:30",
+            "celdas": [
+              "Inglés",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "09:30 - 09:45",
+            "celdas": [
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo"
+            ]
+          },
+          {
+            "hora": "09:45 - 10:30",
+            "celdas": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "10:30 - 11:15",
+            "celdas": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "11:15 - 11:30",
+            "celdas": [
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo",
+              "Recreo"
+            ]
+          },
+          {
+            "hora": "11:30 - 12:15",
+            "celdas": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "12:15 - 13:00",
+            "celdas": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "13:00 - 13:45",
+            "celdas": [
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo",
+              "Almuerzo"
+            ]
+          },
+          {
+            "hora": "13:45 - 14:30",
+            "celdas": [
+              "Científico: XD | Humanistas: plop",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hora": "",
+            "celdas": [
+              "Científico: XD| Humanista: plop",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    ],
+    "docentes": [],
+    "asignaturas": [
+      "Economía y Sociedad",
+      "Comprensión Histórica del Presente"
+    ]
+  },
+  "logo": {
+    "imagen": "img/logo/mv119ugq-diseno-sin-titulo.png",
+    "icono": "img/logo/favicon-32.png",
+    "apple": "img/logo/apple-touch-icon.png",
+    "version": "mv11a160",
+    "ancho": 220,
+    "alto": 256,
+    "original": [
+      597,
+      627
+    ]
+  },
+  "organizaciones": [
+    {
+      "sigla": "CGPA",
+      "nombre": "Centro General de Padres y Apoderados",
+      "area": "Centro de Padres y Apoderados",
+      "descripcion": "Organización que representa a las familias y colabora con las actividades del colegio.",
+      "correo": "cegepa@colegiosm.cl",
+      "instagram": ""
+    },
+    {
+      "sigla": "CEAL",
+      "nombre": "Centro de Estudiantes",
+      "area": "Centro de Estudiantes (CEAL)",
+      "descripcion": "Organización que representa a los estudiantes, canaliza sus inquietudes y organiza actividades para toda la comunidad.",
+      "correo": "",
+      "instagram": ""
+    }
+  ],
+  "pilares": [
+    {
+      "titulo": "Excelencia académica",
+      "texto": "Planificación por ciclos, seguimiento de aprendizajes y acompañamiento pedagógico Aptus para fortalecer las prácticas docentes.",
+      "imagen": "",
+      "formato": "icono"
+    },
+    {
+      "titulo": "Apoyo integral",
+      "texto": "Departamentos de Apoyo Pedagógico y Psicosocial que acompañan a cada estudiante según sus necesidades.",
+      "imagen": "",
+      "formato": "icono"
+    },
+    {
+      "titulo": "Convivencia escolar",
+      "texto": "Un ambiente seguro y de buen trato, con Inspectoría General y un equipo de Convivencia Escolar dedicado.",
+      "imagen": "",
+      "formato": "icono"
+    },
+    {
+      "titulo": "Cultura y comunidad",
+      "texto": "Biblioteca CRA, Muestra Folclórica y un Centro de Padres activo que da vida al colegio durante todo el año.",
+      "imagen": "",
+      "formato": "icono"
+    }
+  ],
+  "lema": "Aprender, crecer y convivir con sentido."
+}

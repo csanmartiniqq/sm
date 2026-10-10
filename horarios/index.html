@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-page="horarios">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Horarios | Colegio San Martín Iquique</title>
+  <meta name="description" content="Horarios de clases de cada curso del Colegio San Martín de Iquique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/paginas/horarios.css">
+  <script src="../js/estilo.js"></script>
+</head>
+<body data-page="horarios" id="top">
+  <script src="../js/layout.js"></script>
+
+  <main id="contenido">
+
+    <section class="page-hero">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <nav aria-label="Ruta"><ol class="crumbs"><li><a href="../">Inicio</a></li><li aria-current="page">Horarios</li></ol></nav>
+        <h1>Horarios</h1>
+        <p>Revisa el horario de clases de cada curso. Puedes descargarlo como imagen o imprimirlo.</p>
+      </div>
+    </section>
+
+    <!-- Horarios (se llenan desde el panel: Horarios) -->
+    <section class="section">
+      <div class="container">
+        <div class="tt-tools">
+          <label class="tt-select"><span id="ttSelectLabel">Curso</span><select id="ttSelect"></select></label>
+          <div class="tt-acciones">
+            <button type="button" class="btn btn--gold tt-png" id="ttPng">Descargar imagen</button>
+            <button type="button" class="btn btn--outline tt-print" id="ttPrint">Imprimir</button>
+          </div>
+        </div>
+        <div id="timetable"></div>
+      </div>
+    </section>
+
+    <!-- Llamado a contacto -->
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>¿Tienes dudas o quieres conocernos?</h2>
+          <p>Escríbenos y te responderemos a la brevedad.</p>
+        </div>
+        <a href="../contacto/" class="btn btn--gold">Contáctanos</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/redes.js"></script>
+  <script src="../js/horarios.js"></script>
+  <script src="../js/horario-png.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

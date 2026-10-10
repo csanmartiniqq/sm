@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-page="docentes">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Docentes | Colegio San Martín Iquique</title>
+  <meta name="description" content="Profesores jefe y docentes de asignatura del Colegio San Martín de Iquique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/paginas/docentes.css">
+  <script src="../js/estilo.js"></script>
+</head>
+<body data-page="docentes" id="top">
+  <script src="../js/layout.js"></script>
+
+  <main id="contenido">
+
+    <section class="page-hero">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <nav aria-label="Ruta"><ol class="crumbs"><li><a href="../">Inicio</a></li><li><a href="../colegio/">Colegio</a></li><li aria-current="page">Docentes</li></ol></nav>
+        <h1>Docentes</h1>
+        <p>Conoce a los profesores jefe y docentes de asignatura que acompañan día a día a nuestros estudiantes. Los equipos de apoyo y funcionarios están en <a href="../equipos/">Equipos y funcionarios</a>.</p>
+      </div>
+    </section>
+
+    <!-- Docentes (se llena desde el panel: Docentes y personal, «Aparece en: Docentes») -->
+    <section class="section">
+      <div class="container">
+        <div class="staff-tools reveal">
+          <label class="staff-search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.2 4.2-1.4 1.4-4.2-4.2A7.5 7.5 0 1 1 10.5 3zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"/></svg>
+            <input type="search" id="staffSearch" placeholder="Buscar por nombre, curso o asignatura" aria-label="Buscar docentes">
+          </label>
+          <div class="filters" id="staffFilters" role="group" aria-label="Filtrar por área"></div>
+        </div>
+        <div id="staff" data-tipo="docente"></div>
+      </div>
+    </section>
+
+    <!-- Llamado a contacto -->
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>¿Tienes dudas o quieres conocernos?</h2>
+          <p>Escríbenos y te responderemos a la brevedad.</p>
+        </div>
+        <a href="../contacto/" class="btn btn--gold">Contáctanos</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/redes.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

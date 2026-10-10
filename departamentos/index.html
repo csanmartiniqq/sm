@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-page="departamentos">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Departamentos | Colegio San Martín Iquique</title>
+  <meta name="description" content="Departamentos y equipos de apoyo del Colegio San Martín de Iquique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/paginas/departamentos.css">
+  <script src="../js/estilo.js"></script>
+</head>
+<body data-page="departamentos" id="top">
+  <script src="../js/layout.js"></script>
+
+  <main id="contenido">
+
+    <section class="page-hero" id="deptHero">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <nav aria-label="Ruta"><ol class="crumbs" id="deptCrumbs"><li><a href="../">Inicio</a></li><li aria-current="page">Departamentos</li></ol></nav>
+        <h1 id="deptTitulo">Departamentos</h1>
+        <p id="deptLead">Departamentos por asignatura y equipos que acompañan el aprendizaje y el bienestar de nuestros estudiantes.</p>
+      </div>
+    </section>
+
+    <!-- Lista de departamentos (se oculta al abrir uno) -->
+    <div id="deptLista">
+      <section class="section">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">Por asignatura</p>
+            <h2 class="title">Departamentos académicos</h2>
+            <p>Conoce a los profesores de cada área y las actividades que realizan con nuestros estudiantes.</p>
+          </header>
+          <div class="acas" id="deptsAca"></div>
+        </div>
+      </section>
+
+      <section class="section section--tint">
+        <div class="container">
+          <header class="section__head reveal">
+            <p class="eyebrow">Equipos de apoyo</p>
+            <h2 class="title">Equipos que nos sostienen</h2>
+            <p>Cada equipo trabaja junto a docentes y familias para acompañar a nuestros estudiantes dentro y fuera del aula.</p>
+          </header>
+          <div class="depts" id="depts"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Un departamento: profesores y actividades (/departamentos/?d=matematica) -->
+    <section class="section" id="deptVer" hidden></section>
+
+    <!-- Llamado a contacto -->
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>¿Tienes dudas o quieres conocernos?</h2>
+          <p>Escríbenos y te responderemos a la brevedad.</p>
+        </div>
+        <a href="../contacto/" class="btn btn--gold">Contáctanos</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/redes.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

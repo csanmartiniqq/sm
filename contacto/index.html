@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-page="contacto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Contacto | Colegio San Martín Iquique</title>
+  <meta name="description" content="Dirección, teléfonos y formulario de contacto del Colegio San Martín de Iquique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/paginas/contacto.css">
+  <script src="../js/estilo.js"></script>
+</head>
+<body data-page="contacto" id="top">
+  <script src="../js/layout.js"></script>
+
+  <main id="contenido">
+
+    <section class="page-hero">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <nav aria-label="Ruta"><ol class="crumbs"><li><a href="../">Inicio</a></li><li aria-current="page">Contacto</li></ol></nav>
+        <h1>Contacto</h1>
+        <p>Estamos en Amunátegui 86, Iquique. Escríbenos tus consultas, reclamos o felicitaciones.</p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section section--dark">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <p class="eyebrow eyebrow--light">Contacto</p>
+          <h2 class="title title--light">Conversemos</h2>
+          <p>Haznos llegar tus consultas, dudas, reclamos o felicitaciones. Te responderemos a la brevedad.</p>
+          <ul class="contact__list">
+            <li><span>Dirección</span>Amunátegui 86, Iquique</li>
+            <li><span>Teléfonos</span><a href="tel:+56572427128">57 242 7128</a> · <a href="tel:+56572471256">57 247 1256</a></li>
+            <li><span>Sitio</span><a href="http://www.colegiosm.cl/">www.colegiosm.cl</a></li>
+          </ul>
+          <div class="map">
+            <iframe title="Mapa: Amunátegui 86, Iquique" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Amun%C3%A1tegui%2086%2C%20Iquique%2C%20Chile&z=16&output=embed"></iframe>
+          </div>
+        </div>
+        <form class="form reveal" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="nombre">Nombre completo</label>
+              <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+              <small class="error"></small>
+            </div>
+            <div class="field">
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <small class="error"></small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="motivo">Motivo</label>
+            <select id="motivo" name="motivo" required>
+              <option value="">Selecciona una opción</option>
+              <option>Consulta</option>
+              <option>Admisión 2027</option>
+              <option>Reclamo</option>
+              <option>Felicitación</option>
+            </select>
+            <small class="error"></small>
+          </div>
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            <small class="error"></small>
+          </div>
+          <button type="submit" class="btn btn--gold btn--block">Enviar mensaje</button>
+          <p class="form__ok" id="formOk" role="status" hidden>¡Gracias! Tu mensaje fue registrado. Nos pondremos en contacto contigo.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Redes sociales -->
+    <section class="section social" id="redes">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Comunidad</p>
+          <h2 class="title" id="socialTitle">Síguenos en redes sociales</h2>
+          <p id="socialText">Entérate de las actividades, logros y avisos de nuestra comunidad en nuestras cuentas oficiales.</p>
+        </header>
+        <div class="social__grid" id="socialGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/redes.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

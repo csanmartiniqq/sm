@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-page="noticias">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Noticias y comunicados | Colegio San Martín Iquique</title>
+  <meta name="description" content="Noticias, circulares y comunicados oficiales del Colegio San Martín de Iquique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/paginas/noticias.css">
+  <script src="../js/estilo.js"></script>
+</head>
+<body data-page="noticias" id="top">
+  <script src="../js/layout.js"></script>
+
+  <main id="contenido">
+
+    <section class="page-hero">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <nav aria-label="Ruta"><ol class="crumbs"><li><a href="../">Inicio</a></li><li aria-current="page">Noticias y comunicados</li></ol></nav>
+        <h1>Noticias y comunicados</h1>
+        <p>Circulares, comunicados oficiales y novedades de nuestra comunidad educativa.</p>
+      </div>
+    </section>
+
+    <!-- Noticias -->
+    <section class="section">
+      <div class="container">
+        <header class="section__head section__head--row reveal">
+          <div>
+            <p class="eyebrow">Actualidad</p>
+            <h2 class="title">Todas las publicaciones</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar noticias">
+            <button class="chip is-active" data-filter="todas">Todas</button>
+            <button class="chip" data-filter="comunicado">Comunicados</button>
+            <button class="chip" data-filter="pedagogia">Pedagogía</button>
+            <button class="chip" data-filter="comunidad">Comunidad</button>
+          </div>
+        </header>
+        <div class="news" id="news"></div>
+        <div class="center">
+          <button class="btn btn--outline" id="moreNews">Ver más noticias</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/redes.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

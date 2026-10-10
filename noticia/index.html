@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-page="noticia">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://maps.google.com https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Noticia | Colegio San Martín Iquique</title>
+  <meta name="description" content="Noticia del Colegio San Martín de Iquique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="../img/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/paginas/noticia.css">
+  <script src="../js/estilo.js"></script>
+</head>
+<body data-page="noticia" id="top">
+  <script src="../js/layout.js"></script>
+
+  <main id="contenido">
+
+    <section class="page-hero page-hero--noticia">
+      <div class="hero__pattern" aria-hidden="true"></div>
+      <div class="container page-hero__inner">
+        <nav aria-label="Ruta"><ol class="crumbs"><li><a href="../">Inicio</a></li><li><a href="../noticias/">Noticias</a></li><li aria-current="page" id="noticiaRuta">Noticia</li></ol></nav>
+        <p class="noticia__meta" id="noticiaMeta"></p>
+        <h1 id="noticiaTitulo">Cargando…</h1>
+        <p id="noticiaResumen"></p>
+      </div>
+    </section>
+
+    <!-- Cuerpo de la noticia: se completa desde data/sitio.json según ?id= -->
+    <section class="section">
+      <div class="container noticia" id="noticiaVer"></div>
+    </section>
+
+    <section class="section section--tint" id="noticiaOtras" hidden>
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow">Actualidad</p>
+            <h2 class="title">Otras publicaciones</h2>
+          </div>
+          <a class="link-arrow" href="../noticias/">Ver todas</a>
+        </header>
+        <div class="news" id="news" data-limit="3"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/redes.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

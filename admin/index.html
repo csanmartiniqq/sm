@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Seguridad: solo se cargan scripts del propio sitio (ver SEGURIDAD.md) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: https:; frame-src 'self' https://maps.google.com https://www.google.com; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Administración | Colegio San Martín</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/codemirror/codemirror.css">
+  <link rel="icon" type="image/png" href="../img/logo/favicon-32.png">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <!-- Ingreso -->
+  <section class="login" id="login">
+    <form class="login__box" id="loginForm">
+      <div class="login__brand">
+        <svg viewBox="0 0 48 56" aria-hidden="true"><path d="M24 2 4 9v17c0 14 9 23 20 28 11-5 20-14 20-28V9L24 2z" fill="#0b1f3a"/><text x="24" y="33" text-anchor="middle" font-family="Fraunces, serif" font-size="15" font-weight="700" fill="#c9a24b">SM</text></svg>
+        <div><strong>Panel de administración</strong><small>Colegio San Martín Iquique</small></div>
+      </div>
+      <p class="login__intro">Ingresa con tu token de acceso de GitHub. El panel reconoce tu cuenta y te muestra lo que tu rol permite cambiar.</p>
+      <label for="token">Token de acceso</label>
+      <input id="token" type="password" autocomplete="off" placeholder="github_pat_… o ghp_…" required>
+      <label class="check"><input type="checkbox" id="remember"> Recordar 12 horas en este equipo</label>
+      <details class="login__adv">
+        <summary>Repositorio</summary>
+        <label for="repoInput">Usuario/repositorio</label>
+        <input id="repoInput" type="text" value="colegiosanmartin/sitio-colegio-san-martin">
+        <label for="branchInput">Rama</label>
+        <input id="branchInput" type="text" value="main">
+      </details>
+      <button class="btn btn--primary btn--block" type="submit" id="loginBtn">Ingresar</button>
+      <p class="login__error" id="loginError" role="alert"></p>
+      <details class="login__help">
+        <summary>Soy funcionario: ¿cómo obtengo mi token?</summary>
+        <ol>
+          <li>Pide al administrador que agregue tu usuario de GitHub en «Usuarios y permisos». Si no tienes cuenta, créala gratis en <a href="https://github.com/signup" target="_blank" rel="noopener">github.com</a>.</li>
+          <li>Abre <a href="https://github.com/settings/tokens/new?scopes=public_repo&amp;description=Panel%20Colegio%20San%20Mart%C3%ADn" target="_blank" rel="noopener">este enlace</a>: el token ya viene con el permiso correcto («public_repo»).</li>
+          <li>Elige una fecha de vencimiento, presiona <strong>Generate token</strong>, cópialo y pégalo aquí.</li>
+        </ol>
+      </details>
+      <details class="login__help">
+        <summary>Soy administrador de la organización</summary>
+        <ol>
+          <li>Entra a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained tokens</a>.</li>
+          <li>En <em>Resource owner</em> elige la organización <strong>colegiosanmartin</strong>.</li>
+          <li>En <em>Repository access</em> elige <strong>Only select repositories</strong> y marca el repositorio del sitio.</li>
+          <li>En <em>Permissions → Contents</em> elige <strong>Read and write</strong>.</li>
+          <li>Genera el token, cópialo y pégalo aquí. Guárdalo en un lugar seguro.</li>
+        </ol>
+      </details>
+    </form>
+  </section>
+
+  <!-- Panel -->
+  <div class="app" id="app" hidden>
+    <aside class="side">
+      <div class="side__brand">
+        <svg viewBox="0 0 48 56" aria-hidden="true"><path d="M24 2 4 9v17c0 14 9 23 20 28 11-5 20-14 20-28V9L24 2z" fill="currentColor"/><text x="24" y="33" text-anchor="middle" font-family="Fraunces, serif" font-size="15" font-weight="700" fill="#c9a24b">SM</text></svg>
+        <span>Administración</span>
+      </div>
+      <nav class="side__nav" id="sideNav">
+        <p class="side__group">Contenido</p>
+        <button data-view="directivos" class="is-active">Directivos</button>
+        <button data-view="pilares">Pilares</button>
+        <button data-view="departamentos">Departamentos</button>
+        <button data-view="personal">Docentes y personal</button>
+        <button data-view="noticias">Noticias</button>
+        <button data-view="horarios">Horarios</button>
+        <button data-view="organizaciones">CGPA y CEAL</button>
+        <button data-view="documentos">Documentos</button>
+        <button data-view="redes">Redes sociales</button>
+        <button data-view="logo">Logo y lema</button>
+        <button data-view="colores">Colores</button>
+        <button data-view="usuarios">Usuarios y permisos</button>
+        <p class="side__group">Editor de página</p>
+        <button data-view="html">HTML</button>
+        <button data-view="css">CSS</button>
+        <button data-view="estilo">Estilo visual</button>
+      </nav>
+      <div class="side__foot">
+        <p class="side__who" id="sessionInfo"></p>
+        <a href="../" target="_blank" rel="noopener">Ver sitio ↗</a>
+        <button id="exportBtn" type="button">Descargar respaldo</button>
+        <button id="logoutBtn" type="button">Cerrar sesión</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="bar">
+        <div>
+          <h1 id="viewTitle">Directivos</h1>
+          <p id="viewHelp" class="bar__help"></p>
+        </div>
+        <div class="bar__actions">
+          <span class="dirty" id="dirtyFlag" hidden>Cambios sin publicar</span>
+          <button class="btn btn--primary" id="saveBtn" disabled>Guardar y publicar</button>
+        </div>
+      </header>
+      <div class="view" id="view"></div>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="vendor/codemirror/codemirror.js"></script>
+  <script src="../js/redes.js"></script>
+  <script src="../js/estilo.js"></script>
+  <script src="../js/horarios.js"></script>
+  <script src="../js/texto.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
